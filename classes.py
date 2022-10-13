@@ -9,7 +9,7 @@ class House:
     size: int
     type:str
     
-    #methods
+    #methods or functions
     def rent(self) -> float:
         if self.size <= 500:
             return self.size* 10 
