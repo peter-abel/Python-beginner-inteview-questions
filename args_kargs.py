@@ -17,9 +17,9 @@ print(generate_random("number is:"))
 
 '''' both *args and **kwargs can be used in a function but *args must be put before **kwargs.'''
 
-def arg_printer(*args, option=True, **kwargs):
+def student(*args,  **kwargs):
   
    print(args)
    print("name is abel")
    print(kwargs)
-arg_printer( Age=24, rank="intermediate")
+student( Age=24, rank="intermediate")
